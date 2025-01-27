@@ -23,6 +23,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Annotation
 
+  - name: argnorm
+    owner: iuc
+    tool_panel_section_label: Annotation
+
   - name: bakta
     owner: iuc
     tool_panel_section_label: Annotation
@@ -64,6 +68,10 @@ tools:
     tool_panel_section_label: Annotation
 
   - name: compleasm
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: evidencemodeler
     owner: iuc
     tool_panel_section_label: Annotation
 
@@ -158,6 +166,13 @@ tools:
   - name: gprofiler_snpense
     owner: iuc
     tool_panel_section_label: Annotation
+
+  - name: groot
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: data_manager_groot_database_downloader
+    owner: iuc
 
   - name: gubbins
     owner: iuc
@@ -311,11 +326,23 @@ tools:
     owner: iuc
     tool_panel_section_label: Annotation
 
+  - name: data_manager_dada2
+    owner: iuc
+
   - name: data_manager_omamer
+    owner: iuc
+
+  - name: data_manager_humann2_database_downloader
     owner: iuc
 
   - name: data_manager_ncbi_fcs_gx_database_downloader
     owner: iuc
+
+  - name: data_manager_picard_index_builder
+    owner: devteam
+
+  - name: data_manager_sam_fasta_index_builder
+    owner: devteam
 
   - name: optitype
     owner: iuc
@@ -373,6 +400,13 @@ tools:
     owner: iuc
     tool_panel_section_label: Annotation
 
+  - name: staramr
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: data_manager_build_staramr
+    owner: iuc
+
   - name: tb_variant_filter
     owner: iuc
     tool_panel_section_label: Annotation
@@ -427,6 +461,14 @@ tools:
     tool_panel_section_label: Assembly
 
   - name: fastk_fastk
+    owner: iuc
+    tool_panel_section_label: Assembly
+
+  - name: fastk_logex
+    owner: iuc
+    tool_panel_section_label: Assembly
+
+  - name: fastk_histex
     owner: iuc
     tool_panel_section_label: Assembly
 
@@ -664,11 +706,11 @@ tools:
   - name: bbgbigwig
     owner: iuc
     tool_panel_section_label: Convert Formats
-    
+
   - name: bam_to_scidx
     owner: iuc
     tool_panel_section_label: Convert Formats
-    
+
   - name: bam2fastx
     owner: iuc
     tool_panel_section_label: Convert Formats
@@ -773,6 +815,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Convert Formats
 
+  - name: ucsc_axtchain
+    owner: iuc
+    tool_panel_section_label: Convert Formats
+
   - name: ucsc_maftoaxt
     owner: iuc
     tool_panel_section_label: Convert Formats
@@ -785,10 +831,32 @@ tools:
     owner: iuc
     tool_panel_section_label: Convert Formats
 
+  - name: ucsc_nettoaxt
+    owner: iuc
+    tool_panel_section_label: Convert Formats
+
+  - name: ucsc_netfilter
+    owner: iuc
+    tool_panel_section_label: Convert Formats
+
+  - name: ucsc_chainnet
+    owner: iuc
+    tool_panel_section_label: Convert Formats
+
 # EMBOSS
 
   - name: emboss_5
     owner: devteam
+    tool_panel_section_label: EMBOSS
+
+# EMBOSS 6 tool suite
+
+  - name: emboss_needleall
+    owner: iuc
+    tool_panel_section_label: EMBOSS
+
+  - name: emboss_needle
+    owner: iuc
     tool_panel_section_label: EMBOSS
 
 
@@ -818,6 +886,10 @@ tools:
     tool_panel_section_label: Evolution
 
   - name: iqtree
+    owner: iuc
+    tool_panel_section_label: Evolution
+
+  - name: quicktree
     owner: iuc
     tool_panel_section_label: Evolution
 
@@ -919,6 +991,10 @@ tools:
 
   - name: cutadapt
     owner: lparsons
+    tool_panel_section_label: FASTA/FASTQ
+
+  - name: fasta_clipping_histogram
+    owner: devteam
     tool_panel_section_label: FASTA/FASTQ
 
   - name: fasta_compute_length
@@ -1316,6 +1392,10 @@ tools:
     tool_panel_section_label: Get Data
 
   - name: ega_download_client
+    owner: iuc
+    tool_panel_section_label: Get Data
+
+  - name: fastq_dl
     owner: iuc
     tool_panel_section_label: Get Data
 
@@ -1811,16 +1891,20 @@ tools:
   - name: cami_amber
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
-  
+
   - name: cami_amber_add
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
-  
+
   - name: cami_amber_convert
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
   - name: name2taxid
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: profile2cami
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
@@ -2092,6 +2176,11 @@ tools:
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
+  - name: dada2_primercheck
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+
   - name: das_tool
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
@@ -2104,6 +2193,10 @@ tools:
 
   - name: data_manager_bakta
     owner: iuc
+
+  - name: decontam
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
 
   - name: drep_compare
     owner: iuc
@@ -2437,11 +2530,19 @@ tools:
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
+  - name: phyloseq_add_rank_names
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
   - name: phyloseq_from_biom
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
   - name: phyloseq_from_dada2
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: phyloseq_plot_bar
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
@@ -2558,6 +2659,18 @@ tools:
     tool_panel_section_label: Metagenomic Analysis
 
   - name: taxpasta
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: fairy_cov
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: fairy_sketch
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: binette
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
@@ -3153,6 +3266,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Multiple Alignments
 
+  - name: trimal
+    owner: iuc
+    tool_panel_section_label: Multiple Alignments
+
   - name: sina
     owner: iuc
     tool_panel_section_label: Multiple Alignments
@@ -3499,6 +3616,14 @@ tools:
     owner: iuc
     tool_panel_section_label: Phylogenetics
 
+  - name: squirrel_phylo
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: squirrel_qc
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
 
 # PICARD
 
@@ -3810,6 +3935,34 @@ tools:
     owner: iuc
     tool_panel_section_label: RNA Analysis
 
+  - name: seurat_preprocessing
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
+  - name: seurat_integrate
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
+  - name: seurat_reduce_dimension
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
+  - name: seurat_create
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
+  - name: seurat_plot
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
+  - name: seurat_data
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
+  - name: seurat_clustering
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
   - name: sleuth
     owner: iuc
     tool_panel_section_label: RNA Analysis
@@ -3879,6 +4032,10 @@ tools:
     tool_panel_section_label: RNA Analysis
 
   - name: tximport
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
+
+  - name: sfold
     owner: iuc
     tool_panel_section_label: RNA Analysis
 
@@ -4104,6 +4261,10 @@ tools:
 
 # SINGLE-CELL
 
+  - name: cosg
+    owner: iuc
+    tool_panel_section_label: Single-cell
+
   - name: sceasy_convert
     owner: iuc
     tool_panel_section_label: Single-cell
@@ -4221,6 +4382,14 @@ tools:
     tool_panel_section_label: Single-cell
 
   - name: sinto_fragments
+    owner: iuc
+    tool_panel_section_label: Single-cell
+
+  - name: spapros_selection
+    owner: iuc
+    tool_panel_section_label: Single-cell
+
+  - name: spapros_evaluation
     owner: iuc
     tool_panel_section_label: Single-cell
 
@@ -4686,6 +4855,38 @@ tools:
     owner: iuc
     tool_panel_section_label: Variant Calling
 
+  - name: cnvkit_export_bed
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
+  - name: cnvkit_export_cdt
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
+  - name: cnvkit_export_jtv
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
+  - name: cnvkit_export_nexus_basic
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
+  - name: cnvkit_export_nexus_ogt
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
+  - name: cnvkit_export_seg
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
+  - name: cnvkit_theta
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
+  - name: cnvkit_export_vcf
+    owner: iuc
+    tool_panel_section_label: Variant Calling
+
   - name: cnvkit_fix
     owner: iuc
     tool_panel_section_label: Variant Calling
@@ -5053,7 +5254,7 @@ tools:
   - name: vt_variant_tools
     owner: iuc
     tool_panel_section_label: Variant Calling
-    
+
   - name: hgvsparser
     owner: iuc
     tool_panel_section_label: Variant Calling
@@ -5134,6 +5335,10 @@ tools:
     tool_panel_section_label: Virology
 
   - name: virheat
+    owner: iuc
+    tool_panel_section_label: Virology
+
+  - name: irma
     owner: iuc
     tool_panel_section_label: Virology
 

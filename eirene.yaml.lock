@@ -599,8 +599,35 @@ tools:
   - 7e5ccc8b6f6e
   - ddb9d330ecc0
   tool_panel_section_label: Metabolomics
+- name: mfassignr_findrecalseries
+  owner: recetox
+  revisions:
+  - 18e13043167d
+  - 1b4881c150cc
+  - ad4176b336dc
+  tool_panel_section_label: Metabolomics
 - name: rcx_tk
   owner: recetox
   revisions:
   - 54401f9d1a30
+  tool_panel_section_label: Metabolomics
+- name: target_screen
+  owner: recetox
+  revisions:
+  - d4c2d5bc0524
+  tool_panel_section_label: Metabolomics
+- name: ms2deepscore_config_generator
+  owner: recetox
+  revisions:
+  - 7e4ac334fc33
+  tool_panel_section_label: Metabolomics
+- name: ms2deepscore_similarity
+  owner: recetox
+  revisions:
+  - 58c95171a0d3
+  tool_panel_section_label: Metabolomics
+- name: ms2deepscore_training
+  owner: recetox
+  revisions:
+  - 0a0529822d91
   tool_panel_section_label: Metabolomics

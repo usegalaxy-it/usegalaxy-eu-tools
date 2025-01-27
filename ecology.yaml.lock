@@ -457,6 +457,16 @@ tools:
   - 484930fdc002
   - 77787acbd793
   tool_panel_section_label: Climate Analysis
+- name: landcover_subindicator
+  owner: ecology
+  revisions:
+  - 828c02027180
+  tool_panel_section_label: Climate Analysis
+- name: harmonize_insitu_to_netcdf
+  owner: ecology
+  revisions:
+  - 15260949227d
+  tool_panel_section_label: Climate Analysis
 - name: venn_list
   owner: peterjc
   revisions:
@@ -1416,6 +1426,13 @@ tools:
   - 1fcd81d65467
   - 5bae75c49f2e
   tool_panel_section_label: Get Data
+- name: copernicusmarine
+  owner: ecology
+  revisions:
+  - 4de886e6300d
+  - 4edd010161e9
+  - c07f11d8e49a
+  tool_panel_section_label: Get Data
 - name: dwt_var_perfeature
   owner: devteam
   revisions:
@@ -1588,6 +1605,18 @@ tools:
   - 9507334a3303
   - a45fa46f8010
   tool_panel_section_label: Data and Metadata Management
+- name: annotations_template
+  owner: ecology
+  revisions:
+  - 79f2ca0bfa9a
+  - dbba9bedd4bd
+  tool_panel_section_label: Data and Metadata Management
+- name: eml_validate
+  owner: ecology
+  revisions:
+  - a652b7bc6322
+  - ad96b20423cf
+  tool_panel_section_label: Data and Metadata Management
 - name: makeeml
   owner: ecology
   revisions:
@@ -1614,6 +1643,11 @@ tools:
   - bd8b3e7541d5
   - c1d2c0922362
   tool_panel_section_label: Data and Metadata Management
+- name: data_paper_from_eml
+  owner: ecology
+  revisions:
+  - cfe884e53600
+  tool_panel_section_label: Data and Metadata Management
 - name: ecoregion_geonearestneighbor
   owner: ecology
   revisions:
@@ -1626,6 +1660,7 @@ tools:
   revisions:
   - 2129484beb61
   - 3cc4b8bbce00
+  - a56c413f3a98
   - f0d6938d0451
   - f8962f1c832a
   - fc621f3f8226
@@ -1715,6 +1750,12 @@ tools:
   revisions:
   - cc18c3bf2666
   tool_panel_section_label: Get Data
+- name: aquainfra_ogc_api_processes
+  owner: ecology
+  revisions:
+  - 0077885b6f1d
+  - 1ff618d89af4
+  tool_panel_section_label: GIS Data Handling
 - name: iabiodiv_smartbiodiv_med_environ
   owner: ecology
   revisions:

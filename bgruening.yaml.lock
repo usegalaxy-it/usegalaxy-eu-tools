@@ -297,6 +297,11 @@ tools:
   - 0800a1b66bbd
   - 389227fa1864
   tool_panel_section_label: Graph/Display Data
+- name: wordcloud
+  owner: bgruening
+  revisions:
+  - 54c2d8ebf0cf
+  tool_panel_section_label: Graph/Display Data
 - name: cellpose
   owner: bgruening
   revisions:
@@ -1031,6 +1036,12 @@ tools:
   - e10ffa9e0b90
   - e8639f65c883
   tool_panel_section_label: Machine Learning
+- name: tabpfn
+  owner: bgruening
+  revisions:
+  - 33d53eb476fd
+  - c081e5e1d7ce
+  tool_panel_section_label: Machine Learning
 - name: whisper
   owner: bgruening
   revisions:
@@ -1047,6 +1058,13 @@ tools:
   - 08c658e9aa9e
   - 7770a4bd42e2
   - dab494dce303
+  tool_panel_section_label: Machine Learning
+- name: black_forest_labs_flux
+  owner: bgruening
+  revisions:
+  - 21ee409e6cde
+  - 3e22bda128be
+  - 7939ae8c5fd5
   tool_panel_section_label: Machine Learning
 - name: graphmap_align
   owner: bgruening
@@ -1089,6 +1107,15 @@ tools:
   revisions:
   - 2cbd0d66aa08
   tool_panel_section_label: Metagenomic Analysis
+- name: motus
+  owner: bgruening
+  revisions:
+  - d20f3b9a59a2
+  tool_panel_section_label: Metagenomic Analysis
+- name: data_manager_motus
+  owner: bgruening
+  revisions:
+  - 0370fe3cf518
 - name: tiara
   owner: bgruening
   revisions:
