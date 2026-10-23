@@ -523,6 +523,10 @@ tools:
 
 # MACHINE LEARNING
 
+  - name: dna_foundation_models
+    owner: bgruening
+    tool_panel_section_label: Machine Learning
+
   - name: keras_batch_models
     owner: bgruening
     tool_panel_section_label: Machine Learning
@@ -830,6 +834,10 @@ tools:
 # OTHER TOOLS
 
 
+
+  - name: 3dtrees_sidecar
+    owner: bgruening
+    tool_panel_section_label: Other Tools
 
   - name: pynxtools_peak_finding
     owner: bgruening
