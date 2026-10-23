@@ -242,9 +242,9 @@ tools:
   - 464b9305180e
   - 6595517c2dd8
   - 6e8d94597139
-  - 9bc5cdefb090
   - 9cd341095afd
   - aff5135563c6
+  - b6236eb1a50b
   tool_panel_section_label: Text Manipulation
 - name: prinseq
   owner: iuc
@@ -402,6 +402,7 @@ tools:
 - name: table_pandas_rename_column
   owner: recetox
   revisions:
+  - 63273927b45d
   - 761f8ab8fdb6
   tool_panel_section_label: Metabolomics
 - name: anova
@@ -622,7 +623,7 @@ tools:
   - 51c6ccaace7e
   - 53460afd5115
   - '566197475670'
-  - 6a097d09fca3
+  - 94f3fd9ade04
   - ca7cb0eaad62
   tool_panel_section_label: Graph/Display Data
 - name: ggplot2_point
@@ -643,9 +644,9 @@ tools:
   - 11869c5becd8
   - 355a82227003
   - 398e5104f8a2
-  - 6b9816a913de
   - 6fc8bab811da
   - b0d96516e6a5
+  - bf96015d2492
   - fb50ab943396
   tool_panel_section_label: Graph/Display Data
 - name: tsne
@@ -686,6 +687,7 @@ tools:
   - 4aa3666b66fa
   - 4ed102b922cb
   - 61461e52c923
+  - 8797bedbba8e
   - b7c3e9a3b954
   - de94341feadb
   - df690bb42687
@@ -699,6 +701,7 @@ tools:
   - 7068b5fcd623
   - 86a086d2bbed
   - 86c5b627ddb6
+  - cb2cfcaf6ba8
   - e6af850a1675
   - e6f4d3d9058c
   - eb41d87cb1de
@@ -712,6 +715,7 @@ tools:
   - 36e8d6d5d01b
   - 5023535e9f8b
   - 69c44aab684e
+  - 8eb081549c98
   - 9a01835cdead
   - c6ae57f774c6
   - e5a5ad882f1f
@@ -729,12 +733,14 @@ tools:
   - aef56d0e7a61
   - b1eda492f063
   - bc0117538945
+  - bf5b6f5a18ed
   tool_panel_section_label: Machine Learning
 - name: sklearn_pairwise_metrics
   owner: bgruening
   revisions:
   - 226524df8c6c
   - 23a37a52a899
+  - 383d5372a90d
   - 3ff43fbb7ccf
   - 5bd0866dbc7a
   - a61375e306c1
@@ -750,6 +756,7 @@ tools:
   - 187226dceb22
   - 2c58b83c9bad
   - 4cc980df6265
+  - 531513ce17a5
   - 672327583f74
   - 7ae443e6217d
   - 900c42c3eef4
@@ -766,6 +773,7 @@ tools:
   - 4bbaf77573ef
   - 7dd3fb35904f
   - 86d4c2b66e16
+  - 88bd281cdf65
   - 981a0328d6bb
   - ad7e0b4291ee
   - bb9fc9d46ea4
@@ -777,6 +785,7 @@ tools:
   - 0b98933cf0f7
   - 0dd932943362
   - 360330a867f0
+  - 398c7e90ded2
   - 53616c8b0865
   - 841a6cc5fc58
   - a07ab242b0b5
@@ -792,6 +801,7 @@ tools:
   - 6d21b03e00a1
   - 74adae8d7b0f
   - 9e0e31bd8392
+  - a79e439ac817
   - dd786bc16fdb
   - e918f33f7d4f
   - fcadeadd51ae
@@ -804,6 +814,7 @@ tools:
   - 484a98c44f00
   - 6c030fe29722
   - 80074b842ebd
+  - 9452bddf21bd
   - 9ac0b78c6b6d
   - dde13d557dc4
   - eb9da067ab26
@@ -820,6 +831,7 @@ tools:
   - a0061a087409
   - a7067bbf1e58
   - adc6137e7c73
+  - d0f0767072b2
   - e56721f44020
   tool_panel_section_label: Machine Learning
 - name: sklearn_regression_metrics
@@ -834,6 +846,7 @@ tools:
   - 8ced2fac52f4
   - c78a5fc9e758
   - dc17e2878dc1
+  - f55053c4a5ec
   tool_panel_section_label: Machine Learning
 - name: sklearn_discriminant_classifier
   owner: bgruening
@@ -845,6 +858,7 @@ tools:
   - 4ee087eeda62
   - 78a60f884ac9
   - 87cb9cb44d1f
+  - b0b9245d414e
   - dea38330b78a
   - e81b336415c8
   tool_panel_section_label: Machine Learning
@@ -860,11 +874,13 @@ tools:
   - bf32512b1418
   - d3fe6fcc6bf4
   - dc4b5fd604a6
+  - fd703ccdab66
   tool_panel_section_label: Machine Learning
 - name: sklearn_model_validation
   owner: bgruening
   revisions:
   - 492d34a75de6
+  - 5a26080a4f96
   - 5d5d9cc554f9
   - 61e76fb65daf
   - 7e5631773cea
@@ -884,6 +900,7 @@ tools:
   - 4efac966af2a
   - 602b5fb7ef09
   - 648b81bca7c5
+  - a1478b43a349
   - a84e6ffd3735
   - ecd247e1ea9c
   - f49aad8f79ea
@@ -929,6 +946,7 @@ tools:
   - 5e33b465d8d5
   - 75c93c70d094
   - 862943c10425
+  - 94b6bea727ae
   - 97255f6fdf7e
   - 9a913cdee30e
   - a7e081ceb76a
@@ -1942,6 +1960,7 @@ tools:
   owner: ecology
   revisions:
   - 06e5a410db96
+  - 1ecc27463e4c
   - 60697ef1d442
   - a08b4f1044ec
   - d634f70128a6
@@ -1975,6 +1994,7 @@ tools:
 - name: population_genomics_vcf_filtering
   owner: ecology
   revisions:
+  - 1a36ec0a992c
   - 53f9cb509272
   - ba40ff83be36
   - c7f41525afb8
@@ -1983,6 +2003,7 @@ tools:
   owner: ecology
   revisions:
   - 6bafe9f61117
+  - afc9e26e3951
   - c5227eed2880
   - f0a84954ac9e
   tool_panel_section_label: Population Genomics
@@ -1992,12 +2013,14 @@ tools:
   - 0b9504c6e514
   - 704403ecca66
   - b03ede8e228e
+  - c2c53201a55c
   tool_panel_section_label: Population Genomics
 - name: population_genomics_split_vcf_by_pop
   owner: ecology
   revisions:
   - 6dfe228eb03c
   - 82d7b529bd9e
+  - 8ae54d01b08c
   - fb53b75d291d
   tool_panel_section_label: Population Genomics
 - name: population_genetics_stats
@@ -2006,6 +2029,7 @@ tools:
   - a97a73f95025
   - cd9b7f57a163
   - d1df7aca2497
+  - f6a04c76d296
   tool_panel_section_label: Population Genomics
 - name: lea_snmf_application
   owner: ecology
@@ -2025,6 +2049,7 @@ tools:
   - 2becf5e2f302
   - 44df6bc11647
   - 88903ed1f637
+  - b94c3fa4fa5d
   - ecee96169b7c
   - edaea4b04667
   tool_panel_section_label: Population Genomics

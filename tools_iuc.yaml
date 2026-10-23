@@ -73,6 +73,10 @@ tools:
     owner: iuc
     tool_panel_section_label: Annotation
 
+  - name: bionym
+    owner: iuc
+    tool_panel_section_label: Annotation
+
   - name: biotradis
     owner: iuc
     tool_panel_section_label: Annotation
@@ -351,6 +355,10 @@ tools:
     tool_panel_section_label: Annotation
 
   - name: impg_partition
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: mge_cluster
     owner: iuc
     tool_panel_section_label: Annotation
 
@@ -899,6 +907,10 @@ tools:
     tool_panel_section_label: Annotation
 
   - name: transtermhp
+    owner: iuc
+    tool_panel_section_label: Annotation
+
+  - name: ucsc_bigwigaverageoverbed
     owner: iuc
     tool_panel_section_label: Annotation
 
@@ -1645,6 +1657,10 @@ tools:
 
 
 # EPIGENETICS
+
+  - name: atacseqqc
+    owner: iuc
+    tool_panel_section_label: Epigenetics
 
   - name: bwameth
     owner: iuc
@@ -3075,6 +3091,10 @@ tools:
     tool_panel_section_label: Metagenomic Analysis
 
   - name: metamdbg_asm
+    owner: iuc
+    tool_panel_section_label: Metagenomic Analysis
+
+  - name: mumu
     owner: iuc
     tool_panel_section_label: Metagenomic Analysis
 
@@ -5465,6 +5485,34 @@ tools:
     owner: iuc
     tool_panel_section_label: Phylogenetics
 
+  - name: chronaeon_triage
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_sketch
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_phylogeo
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_dynamics
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_date
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_autoclock
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: chronaeon_align
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
   - name: fastreer_dist2tree
     owner: iuc
     tool_panel_section_label: Phylogenetics
@@ -5602,6 +5650,10 @@ tools:
     tool_panel_section_label: Phylogenetics
 
   - name: hyphy_summary
+    owner: iuc
+    tool_panel_section_label: Phylogenetics
+
+  - name: mashtree
     owner: iuc
     tool_panel_section_label: Phylogenetics
 
@@ -6056,6 +6108,10 @@ tools:
   - name: rnaquast
     owner: iuc
     tool_panel_section_label: Assembly
+
+  - name: rsem
+    owner: iuc
+    tool_panel_section_label: RNA Analysis
 
   - name: rseqc
     owner: nilesh
@@ -6950,6 +7006,10 @@ tools:
     tool_panel_section_label: Text Manipulation
 
   - name: filter_tabular
+    owner: iuc
+    tool_panel_section_label: Text Manipulation
+
+  - name: fixed2tab
     owner: iuc
     tool_panel_section_label: Text Manipulation
 

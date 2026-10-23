@@ -26,6 +26,7 @@ tools:
   - b28e0cfa7ba1
   - b8348686a0b9
   - ce3c7f062223
+  - d57471728f7b
   - dde39ba9c031
   tool_panel_section_label: BED
 - name: pizzly
@@ -383,6 +384,7 @@ tools:
 - name: length_and_gc_content
   owner: iuc
   revisions:
+  - 0e7eadbd461c
   - 2ca1baabdae0
   - e3ba567abdf5
   - f088370d2a3c
@@ -1063,6 +1065,7 @@ tools:
   - 5e33b465d8d5
   - 75c93c70d094
   - 862943c10425
+  - 94b6bea727ae
   - 97255f6fdf7e
   - 9a913cdee30e
   - a7e081ceb76a
@@ -1234,6 +1237,7 @@ tools:
   - 0696db066a5b
   - 2275d0688bca
   - 24a09ca67621
+  - 2a1ad8a533dc
   - 6a3a025714d3
   - 6c363db8c702
   - 7ff33c2d525b
@@ -1338,6 +1342,7 @@ tools:
   - 8eb8750070d4
   - 914cfcba0ec8
   - 92198ab2345f
+  - a356a3e21032
   - ae618321f34a
   - cbf488da3b2c
   - cef79931dda5
